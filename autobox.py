@@ -91,7 +91,7 @@ def finalizar(total_compra):
         parcela = parcela.capitalize()
 
         if parcela == "Sim":
-          vezes = int(input("Quantas vezes? de 12, 24 ou 36: "))
+          vezes = int(input("Quantas vezes?\n12\n24\n36\n"))
 
           if vezes == 12 or vezes == 24 or vezes == 36:
             total_parcela = total_compra / vezes
