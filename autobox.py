@@ -45,7 +45,7 @@ def admin(login,senha):
 def cliente(nomeCliente):
   total_compra = 0
 
-  print(f"Olá, {nomeCliente},", "seja bem-vindo a nossa MarktBox, agora, iremos apresentar os carros que estão disponíveis no estoque!!")
+  print(f"Olá, {nomeCliente},", "seja bem-vindo a nossa AutoBox, agora, iremos apresentar os carros que estão disponíveis no estoque!!")
   while True:
 
     if estoque  == {}:
